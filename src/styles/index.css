@@ -1,0 +1,109 @@
+:root {
+  --color-white: #ecf0f1;
+  --color-black: #2c3e50;
+  --color-red: #e74c3c;
+  --color-light-blue: #3498db;
+  --color-blue: #2980b9;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/* Main Elements */
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 112.5%;
+  line-height: 1.5;
+  margin: 0;
+}
+
+header {
+  background: #2c3e50;
+  height: 100px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+nav {
+  display: flex;
+  justify-content: space-around;
+}
+
+nav > a {
+  color: #ecf0f1;
+  margin: 0 20px;
+}
+
+nav > a:hover {
+  border-bottom: 3px solid;
+}
+
+main {
+  padding: 10px;
+}
+
+figcaption {
+  font-size: 75%;
+  font-weight: lighter;
+}
+
+contact {
+  padding: 0 10px 0px 10px;
+  margin: 20px;
+}
+
+footer {
+  background: grey;
+  padding: 20px;
+}
+
+/* Typography */
+
+h1 {
+  color: #ecf0f1;
+}
+
+h2,
+h3 {
+  font-weight: 500;
+}
+
+a {
+  text-decoration: none;
+}
+
+a > img {
+  margin: 20px;
+}
+
+footer > p {
+  color: white;
+}
+
+/* Forms, Input */
+
+input,
+button {
+  font-size: 1em;
+}
+
+/* Lists */
+
+ul {
+  list-style: square inside;
+}
+
+.portrait {
+  width: 100%;
+}
+
+.biography > p {
+}
