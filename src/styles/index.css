@@ -1,7 +1,11 @@
+/* General */
+
 * {
-  margin: 0;
-  padding: 0;
+  margin: auto;
+  padding: auto;
 }
+
+/* Main Elements */
 
 body {
   font-family: "Roboto", sans-serif;
@@ -11,6 +15,7 @@ body {
 
 header {
   background: #2c3e50;
+  height: 100px;
   padding: 10px;
   display: flex;
   flex-direction: column;
@@ -21,22 +26,17 @@ nav {
   display: flex;
   justify-content: space-around;
 }
+
 nav > a {
   color: #ecf0f1;
-  padding: 0 20px;
+  margin: 0 20px;
 }
 
-h1 {
-  color: #ecf0f1;
-}
-h2,
-h3 {
-  font-weight: 500;
-  margin: 20px;
+nav > a:hover {
+  border-bottom: 3px solid;
 }
 
-a {
-  text-decoration: none;
+main {
 }
 
 figcaption {
@@ -44,19 +44,55 @@ figcaption {
   font-weight: lighter;
 }
 
-.portrait {
-  width: 100%;
+contact {
+  padding: 0 10px 0px 10px;
+  margin: 20px;
 }
+
+footer {
+  background: grey;
+  height: 100px;
+  padding: 20px;
+}
+
+/* Typography */
+
+h1 {
+  color: #ecf0f1;
+}
+
+h2,
+h3 {
+  font-weight: 500;
+  margin: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+a > img {
+  margin: 20px;
+}
+1
+
+/* Forms, Input */
 
 input,
 button {
   font-size: 1em;
 }
 
+/* Lists */
+
 ul {
-  list-style-type: square;
+  list-style: square inside;
 }
 
-footer {
-  background: grey;
+.portrait {
+  width: 100%;
+}
+
+.biography > p {
+  padding: 20px;
 }
