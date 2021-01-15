@@ -12,14 +12,8 @@
     <title>My Website</title>
   </head>
   <body>
-    <header class="mobile-header">
-      <div class="menu">
-        <img src="images/hamburger-menu.svg" alt="" />
-      </div>
-      <h1 class="site-title">
-        <span>Marcus</span>
-        <span>Hohlbein</span>
-      </h1>
+    <header class="header">
+      <h1 class="site-title">Marcus<span class="dot">.</span></h1>
       <nav class="main-nav">
         <a href="#Home">Home</a>
         <a href="#About">About</a>
@@ -29,25 +23,119 @@
       </nav>
     </header>
     <main class="content">
-      <section class="home">
+      <section id="home" class="home">
         <figure class="profile-picture">
-          <img class="portrait" src="images/marcus_hohlbein.jpg" alt="" />
-          <figcaption>Marcus im Sommer</figcaption>
+          <img
+            class="portrait"
+            src="images/marcus_hohlbein.jpg"
+            alt=""
+            height="100"
+            width="100"
+          />
         </figure>
+        <h2 class="title">Marcus Hohlbein</h2>
+        <p class="sub-title">I'm the new kid on Github</p>
+        <div class="social-container">
+          <a href="https://github.com/marcushohlbein">
+            <img
+              src="./images/github-logo.svg"
+              alt="Github"
+              title="Github"
+              width="24"
+              height="24"
+              class="contact-icon"
+            />
+          </a>
+          <a href="https://codepen.io/marcushohlbein">
+            <img
+              src="./images/codepen_logo.svg"
+              alt="CodePen"
+              title="CodePen"
+              width="24"
+              height="24"
+              class="contact-icon"
+            />
+          </a>
+          <a href="https://stackoverflow.com/users/14678862/marcus-hohlbein">
+            <img
+              src="./images/stackoverflow_logo.svg"
+              alt="Stackoverflow"
+              title="Stackoverflow"
+              width="24"
+              height="24"
+              class="contact-icon"
+            />
+          </a>
+          <a href="https://www.linkedin.com/in/marcushohlbein/">
+            <img
+              src="./images/linkedin_logo.svg"
+              alt="LinkedIn"
+              title="LinkedIn"
+              width="24"
+              height="24"
+              class="contact-icon"
+            />
+          </a>
+          <a href="https://www.xing.com/profile/Marcus_Hohlbein">
+            <img
+              src="./images/xing_logo.svg"
+              alt="Xing"
+              title="Xing"
+              width="24"
+              height="24"
+              class="contact-icon"
+            />
+          </a>
+          <a href="https://www.instagram.com/marcus.hohlbein/">
+            <img
+              src="./images/instagram_logo.svg"
+              alt="Instagram"
+              title="Instagram"
+              width="24"
+              height="24"
+              class="contact-icon"
+            />
+          </a>
+          <a href="https://twitter.com/marcus_hohlbein">
+            <img
+              src="./images/twitter_logo.svg"
+              alt="Twitter"
+              width="24"
+              height="24"
+              class="contact-icon"
+            />
+          </a>
+        </div>
       </section>
-      <section class="card">
-        <h2>Skills & Interests</h2>
-        <ul>
-          <li>Travel</li>
-          <li>Snowboarding</li>
-          <li>Photography</li>
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React (Native)</li>
-        </ul>
+      <section id="skills" class="skill-container">
+        <div class="avatar">
+          <img
+            class="portrait"
+            src="images/marcus_hohlbein.jpg"
+            alt=""
+            height="100"
+            width="100"
+          />
+        </div>
+        <div class="card">
+          <h2>Skills & Interests</h2>
+          <ul class="skills">
+            <li class="tags">
+              HTML
+              <progress value="30" max="100" class="progress red">
+                30 %
+              </progress>
+            </li>
+            <li class="tags">CSS</li>
+            <progress value="30" max="100" class="progress red">30 %</progress>
+            <li class="tags">JavaScript</li>
+            <progress value="30" max="100" class="progress red">30 %</progress>
+            <li class="tags">React (Native)</li>
+            <progress value="30" max="100" class="progress red">30 %</progress>
+          </ul>
+        </div>
       </section>
-      <section class="card">
+      <section id="contact" class="card">
         <h2>Contact</h2>
         <contact id="contact">
           <strong>Name</strong><br />
@@ -58,79 +146,7 @@
           marcus@hohlbe.in<br />
         </contact>
       </section>
-      <section id="social" class="card">
-        <h2>Social</h2>
-        <a href="https://github.com/marcushohlbein">
-          <img
-            src="./images/github-logo.svg"
-            alt="Github"
-            title="Github"
-            width="75"
-            height="75"
-            class="contact-icon"
-          />
-        </a>
-        <a href="https://codepen.io/marcushohlbein">
-          <img
-            src="./images/codepen_logo.svg"
-            alt="CodePen"
-            title="CodePen"
-            width="75"
-            height="75"
-            class="contact-icon"
-          />
-        </a>
-        <a href="https://stackoverflow.com/users/14678862/marcus-hohlbein">
-          <img
-            src="./images/stackoverflow_logo.svg"
-            alt="Stackoverflow"
-            title="Stackoverflow"
-            width="75"
-            height="75"
-            class="contact-icon"
-          />
-        </a>
-        <a href="https://www.linkedin.com/in/marcushohlbein/">
-          <img
-            src="./images/linkedin_logo.svg"
-            alt="LinkedIn"
-            title="LinkedIn"
-            width="75"
-            height="75"
-            class="contact-icon"
-          />
-        </a>
-        <a href="https://www.xing.com/profile/Marcus_Hohlbein">
-          <img
-            src="./images/xing_logo.svg"
-            alt="Xing"
-            title="Xing"
-            width="75"
-            height="75"
-            class="contact-icon"
-          />
-        </a>
-        <a href="https://www.instagram.com/marcus.hohlbein/">
-          <img
-            src="./images/instagram_logo.svg"
-            alt="Instagram"
-            title="Instagram"
-            width="75"
-            height="75"
-            class="contact-icon"
-          />
-        </a>
-        <a href="https://twitter.com/marcus_hohlbein">
-          <img
-            src="./images/twitter_logo.svg"
-            alt="Twitter"
-            width="75"
-            height="75"
-            class="contact-icon"
-          />
-        </a>
-      </section>
-      <section class="biography">
+      <section id="biography" class="card">
         <h2>Biography</h2>
         <p>
           Ich komme aus dem Finance Bereich und habe nach einer klassischen
@@ -147,7 +163,7 @@
           in der Sonne oder in den Bergen zu finden.
         </p>
       </section>
-      <section>
+      <section class="card">
         <h2>CV</h2>
         <ul>
           <li>
