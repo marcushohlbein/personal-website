@@ -12,40 +12,42 @@
     <title>My Website</title>
   </head>
   <body>
-    <header>
-      <h1 class="title">
+    <header class="mobile-header">
+      <div class="menu">
+        <img src="images/hamburger-menu.svg" alt="" />
+      </div>
+      <h1 class="site-title">
         <span>Marcus</span>
         <span>Hohlbein</span>
       </h1>
-      <nav>
-        <a href="#contact">Contact</a>
-        <a href="#social">Social</a>
+      <nav class="main-nav">
+        <a href="#Home">Home</a>
+        <a href="#About">About</a>
+        <a href="#Experience">Experience</a>
         <a href="#bio">Biography</a>
+        <a href="#contact">Contact</a>
       </nav>
     </header>
-    <main>
-      <section>
-        <figure>
+    <main class="content">
+      <section class="home">
+        <figure class="profile-picture">
           <img class="portrait" src="images/marcus_hohlbein.jpg" alt="" />
           <figcaption>Marcus im Sommer</figcaption>
         </figure>
       </section>
-      <section>
-        <h2>Interests</h2>
+      <section class="card">
+        <h2>Skills & Interests</h2>
         <ul>
           <li>Travel</li>
           <li>Snowboarding</li>
           <li>Photography</li>
-        </ul>
-        <h2>Skills</h2>
-        <ul>
           <li>HTML</li>
           <li>CSS</li>
           <li>JavaScript</li>
           <li>React (Native)</li>
         </ul>
       </section>
-      <section class="contact">
+      <section class="card">
         <h2>Contact</h2>
         <contact id="contact">
           <strong>Name</strong><br />
@@ -56,7 +58,7 @@
           marcus@hohlbe.in<br />
         </contact>
       </section>
-      <section id="social">
+      <section id="social" class="card">
         <h2>Social</h2>
         <a href="https://github.com/marcushohlbein">
           <img
@@ -65,6 +67,7 @@
             title="Github"
             width="75"
             height="75"
+            class="contact-icon"
           />
         </a>
         <a href="https://codepen.io/marcushohlbein">
@@ -74,6 +77,7 @@
             title="CodePen"
             width="75"
             height="75"
+            class="contact-icon"
           />
         </a>
         <a href="https://stackoverflow.com/users/14678862/marcus-hohlbein">
@@ -83,6 +87,7 @@
             title="Stackoverflow"
             width="75"
             height="75"
+            class="contact-icon"
           />
         </a>
         <a href="https://www.linkedin.com/in/marcushohlbein/">
@@ -92,6 +97,7 @@
             title="LinkedIn"
             width="75"
             height="75"
+            class="contact-icon"
           />
         </a>
         <a href="https://www.xing.com/profile/Marcus_Hohlbein">
@@ -101,6 +107,7 @@
             title="Xing"
             width="75"
             height="75"
+            class="contact-icon"
           />
         </a>
         <a href="https://www.instagram.com/marcus.hohlbein/">
@@ -110,6 +117,7 @@
             title="Instagram"
             width="75"
             height="75"
+            class="contact-icon"
           />
         </a>
         <a href="https://twitter.com/marcus_hohlbein">
@@ -118,6 +126,7 @@
             alt="Twitter"
             width="75"
             height="75"
+            class="contact-icon"
           />
         </a>
       </section>
