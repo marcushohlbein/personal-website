@@ -6,23 +6,27 @@
     <link rel="stylesheet" href="styles/index.css" />
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap"
       rel="stylesheet"
     />
     <title>My Website</title>
   </head>
   <body>
+    <!--header-->
     <header class="header">
       <h1 class="site-title">Marcus<span class="dot">.</span></h1>
-      <nav class="main-nav">
-        <a href="#Home">Home</a>
-        <a href="#About">About</a>
-        <a href="#Experience">Experience</a>
-        <a href="#bio">Biography</a>
-        <a href="#contact">Contact</a>
+      <nav class="menu-container">
+        <ul class="menu-list">
+          <li class="menu-item"><a href="#skills">Work</a></li>
+          <li class="menu-item"><a href="#about">About</a></li>
+          <li class="menu-item"><a href="#careers">Careers</a></li>
+          <li class="menu-item"><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
     </header>
+    <!--main layout-->
     <main class="content">
+      <!--section main-->
       <section id="home" class="home">
         <figure class="profile-picture">
           <img
@@ -38,7 +42,7 @@
         <div class="social-container">
           <a href="https://github.com/marcushohlbein">
             <img
-              src="./images/github-logo.svg"
+              src="./images/github_logo_outline.svg"
               alt="Github"
               title="Github"
               width="24"
@@ -48,7 +52,7 @@
           </a>
           <a href="https://codepen.io/marcushohlbein">
             <img
-              src="./images/codepen_logo.svg"
+              src="./images/codepen_logo_outline.svg"
               alt="CodePen"
               title="CodePen"
               width="24"
@@ -58,7 +62,7 @@
           </a>
           <a href="https://stackoverflow.com/users/14678862/marcus-hohlbein">
             <img
-              src="./images/stackoverflow_logo.svg"
+              src="./images/stackoverflow_logo_outline.svg"
               alt="Stackoverflow"
               title="Stackoverflow"
               width="24"
@@ -68,7 +72,7 @@
           </a>
           <a href="https://www.linkedin.com/in/marcushohlbein/">
             <img
-              src="./images/linkedin_logo.svg"
+              src="./images/linkedin_logo_outline.svg"
               alt="LinkedIn"
               title="LinkedIn"
               width="24"
@@ -78,7 +82,7 @@
           </a>
           <a href="https://www.xing.com/profile/Marcus_Hohlbein">
             <img
-              src="./images/xing_logo.svg"
+              src="./images/xing_logo_outline.svg"
               alt="Xing"
               title="Xing"
               width="24"
@@ -88,7 +92,7 @@
           </a>
           <a href="https://www.instagram.com/marcus.hohlbein/">
             <img
-              src="./images/instagram_logo.svg"
+              src="./images/instagram_logo_outline.svg"
               alt="Instagram"
               title="Instagram"
               width="24"
@@ -98,7 +102,7 @@
           </a>
           <a href="https://twitter.com/marcus_hohlbein">
             <img
-              src="./images/twitter_logo.svg"
+              src="./images/twitter_logo_outline.svg"
               alt="Twitter"
               width="24"
               height="24"
@@ -107,7 +111,9 @@
           </a>
         </div>
       </section>
+      <!--section skills-->
       <section id="skills" class="skill-container">
+        <h2 class="section-title">Skills & Interests</h2>
         <div class="avatar">
           <img
             class="portrait"
@@ -118,7 +124,6 @@
           />
         </div>
         <div class="card">
-          <h2>Skills & Interests</h2>
           <ul class="skills">
             <li class="tags">
               HTML
@@ -135,8 +140,9 @@
           </ul>
         </div>
       </section>
+      <!--section contact-->
+      <h2 class="section-title">Contact</h2>
       <section id="contact" class="card">
-        <h2>Contact</h2>
         <contact id="contact">
           <strong>Name</strong><br />
           Marcus Hohlbein<br />
@@ -146,8 +152,8 @@
           marcus@hohlbe.in<br />
         </contact>
       </section>
+      <h2 class="section-title">Biography</h2>
       <section id="biography" class="card">
-        <h2>Biography</h2>
         <p>
           Ich komme aus dem Finance Bereich und habe nach einer klassischen
           Bankausbildung bei verschiedenen Banken, Deloitte und zuletzt bei
@@ -163,8 +169,9 @@
           in der Sonne oder in den Bergen zu finden.
         </p>
       </section>
+      <!--section cv-->
+      <h2 class="section-title">CV</h2>
       <section class="card">
-        <h2>CV</h2>
         <ul>
           <li>
             <h3>Abitur</h3>
@@ -193,8 +200,8 @@
         </ul>
       </section>
     </main>
-    <footer>
-      <p>© 2021 Copyright: Marcus Hohlbein</p>
+    <footer class="footer-container">
+      made with <span>&#10084;</span> in Hamburg
     </footer>
   </body>
 </html>
