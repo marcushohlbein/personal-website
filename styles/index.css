@@ -50,6 +50,7 @@ nav,
 section {
   display: block;
 }
+
 .content {
   padding: 0;
 }
@@ -187,7 +188,12 @@ button {
 }
 
 .social-container {
-  margin-top: 10px;
+  font-size: 24px;
+}
+
+.fab {
+  color: var(--color-dark-grey);
+  margin: 0 10px;
 }
 
 .social-container > a {
@@ -213,11 +219,13 @@ button {
   width: 100%;
 }
 
-.content {
-  padding: 20px;
+.red {
+  background-color: rgb(249, 123, 139);
 }
 
-
+.purple {
+  background-color: rgb(108, 108, 229);
+}
 
 /* || CONTACT */
 
