@@ -15,17 +15,17 @@
   <body>
     <!--header-->
     <header class="header">
-      <h1 class="site-title">Marcus<span class="dot">.</span></h1>
+      <h1 class="site-title">Marcus<span class="red">.</span></h1>
       <nav class="menu-container">
         <ul class="menu-list-container">
           <li class="menu-list">
-            <a href="#skills" class="menu-item">Work</a>
+            <a href="#about-me" class="menu-item">About</a>
           </li>
           <li class="menu-list">
-            <a href="#about" class="menu-item">About</a>
+            <a href="#skills" class="menu-item">Skills</a>
           </li>
           <li class="menu-list">
-            <a href="#careers" class="menu-item">Careers</a>
+            <a href="#experience" class="menu-item">Experience</a>
           </li>
           <li class="menu-list">
             <a href="#contact" class="menu-item">Contact</a>
@@ -78,10 +78,9 @@
         <h2 class="section-title">About Me</h2>
         <div class="card columns">
           <p class="about-me">
-            Ich komme aus dem Finance Bereich und habe nach einer klassischen
-            Bankausbildung bei verschiedenen Banken, Deloitte und zuletzt bei
-            Jungheinrich gearbeitet. Neben dem Job habe ich an der VWA/FOM den
-            Bachelor in Wirtschaft & Management gemacht.
+            Hi, I'm Marcus from Hamburg. After many years in the financial
+            sector I would like to develop and implement software projects in
+            the future.
           </p>
           <div class="hobbies">
             <h3>Hobbies</h3>
@@ -95,84 +94,119 @@
         </div>
       </section>
       <!--section skills-->
-      <section id="skills" class="content-container">
+      <section id="skills" class="content-container row-reserve">
         <h2 class="section-title">Skills</h2>
         <div class="card-container">
-          <div class="card red">
+          <div class="card yellow">
+            <i class="fas fa-desktop head-icon"></i>
             <ul class="skill-list">
               <li class="skill-item">HTML</li>
-              <progress value="30" max="100" class="progress">30 %</progress>
+              <progress value="50" max="100" class="progress"></progress>
               <li class="skill-item">CSS</li>
-              <progress value="30" max="100" class="progress">30 %</progress>
+              <progress value="50" max="100" class="progress"></progress>
               <li class="skill-item">JavaScript</li>
-              <progress value="30" max="100" class="progress">30 %</progress>
+              <progress value="40" max="100" class="progress"></progress>
               <li class="skill-item">React (Native)</li>
-              <progress value="30" max="100" class="progress">30 %</progress>
+              <progress value="35" max="100" class="progress"></progress>
             </ul>
           </div>
-          <div class="card purple">
+          <div class="card green white-font">
+            <i class="fas fa-cogs head-icon"></i>
             <ul class="skill-list">
-              <li class="skill-item">HTML</li>
-              <progress value="30" max="100" class="progress">30 %</progress>
-              <li class="skill-item">CSS</li>
-              <progress value="75" max="100" class="progress">30 %</progress>
-              <li class="skill-item">JavaScript</li>
-              <progress value="50" max="100" class="progress">30 %</progress>
-              <li class="skill-item">React (Native)</li>
-              <progress value="1000" max="100" class="progress">30 %</progress>
+              <li class="skill-item">Node.js</li>
+              <progress value="35" max="100" class="progress"></progress>
+              <li class="skill-item">Express</li>
+              <progress value="30" max="100" class="progress"></progress>
+              <li class="skill-item">MongoDB</li>
+              <progress value="20" max="100" class="progress"></progress>
+              <li class="skill-item">Firebase</li>
+              <progress value="25" max="100" class="progress"></progress>
             </ul>
           </div>
+        </div>
+      </section>
+      <!--section experience-->
+      <section id="experience" class="content-container">
+        <h2 class="section-title">Experience</h2>
+        <div class="card">
+          <ul class="timeline">
+            <li class="event">
+              <h3>Sparkasse Nordhausen // 2006-2010</h3>
+              <p>
+                Advice for private and business customers for financial
+                investments and financing, acquisition of new customers,
+                customer relationships management
+              </p>
+            </li>
+            <li class="event">
+              <h3>Raiffeisenbank Werratal-Landeck // 2010-2012</h3>
+              <p>
+                Advice for private and business customers for financial
+                investments and financing, acquisition of new customers,
+                customer relationships management
+              </p>
+            </li>
+            <li class="event">
+              <h3>netbank AG // 2012-2016</h3>
+              <p>
+                Development of market-driven organizational structures, business
+                planning & preparation of decision papers, sub-project
+                management, business process planning and implementation
+              </p>
+            </li>
+            <li class="event">
+              <h3>Deloitte // 2016-2017</h3>
+              <p>
+                Support of projects in the area of banking organization (GwG,
+                KWG, MaRisk), auditing of money laundering prevention and fraud,
+                annual audit of financial statements for financial service
+                providers
+              </p>
+            </li>
+            <li class="event">
+              <h3>Jungheinrich AG // 2017-2021</h3>
+              <p>
+                Supervision of JH foreign companies in closing operations for
+                the financial services business, Setup and automation of finance
+                reporting
+              </p>
+            </li>
+          </ul>
         </div>
       </section>
       <!--section contact-->
       <section id="contact" class="content-container row-reserve">
         <h2 class="section-title">Contact</h2>
-        <div class="card">
-          <contact id="contact">
-            <strong>Name</strong><br />
-            Marcus Hohlbein<br />
-            <strong>Telephone</strong><br />
-            0151/1234567890<br />
-            <strong>Email</strong><br />
-            marcus@hohlbe.in<br />
+        <div class="card columns">
+          <i class="far fa-address-card contact-icon"></i>
+          <contact id="contact" class="contact">
+            <ul class="contact-list">
+              <li class="contact-item">
+                Name
+                <p>Marcus Hohlbein</p>
+              </li>
+              <li class="contact-item">
+                Location<br />
+                <p>Hamburg</p>
+              </li>
+            </ul>
+            <ul class="contact-list">
+              <li class="contact-item">
+                Telephone<br />
+                <p>0151/1234567890</p>
+              </li>
+              <li class="contact-item">
+                Email<br />
+                <p>marcus@hohlbe.in</p>
+              </li>
+            </ul>
           </contact>
-        </div>
-      </section>
-      <!--section cv-->
-      <section id="about-me" class="content-container">
-        <h2 class="section-title">CV</h2>
-        <div class="card">
-          <ul>
-            <li>
-              <h3>Abitur</h3>
-              <p>1996-2004</p>
-            </li>
-            <li>
-              <h3>Sparkasse Nordhausen</h3>
-              <p>2006-2010</p>
-            </li>
-            <li>
-              <h3>Raiffeisenbank Werratal-Landeck</h3>
-              <p>2010-2012</p>
-            </li>
-            <li>
-              <h3>netbank AG</h3>
-              <p>2012-2016</p>
-            </li>
-            <li>
-              <h3>Deloitte</h3>
-              <p>2016-2017</p>
-            </li>
-            <li>
-              <h3>Jungheinrich AG</h3>
-              <p>2017-2021</p>
-            </li>
-          </ul>
         </div>
       </section>
     </main>
     <footer class="footer-container">
-      made with <span>&#10084;</span> in Hamburg
+      made with <i class="fas fa-heart red"></i> &
+      <i class="fas fa-coffee brown"></i> in Hamburg
     </footer>
   </body>
 </html>

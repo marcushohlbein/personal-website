@@ -7,7 +7,9 @@
   --color-grey: #5e5c7f;
   --color-dark-grey: #353353;
   --color-red: #e74c3c;
-  --color-light-red: ;
+  --color-green: #81c784;
+  --color-yellow: #f9d74c;
+  --color-brown: #964b00;
   --color-light-blue: #3498db;
   --color-blue: #2980b9;
 
@@ -80,7 +82,14 @@ section {
   display: flex;
   flex-direction: column;
   width: 100%;
+}
 
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
 }
 
 /* || TYPOGRAPHY */
@@ -128,10 +137,16 @@ button {
   letter-spacing: -2px;
 }
 
-.dot {
+.red {
   color: var(--color-red);
   margin: 0;
   margin: 0;
+}
+
+.brown {
+  color: var(--color-brown);
+  margin: 0;
+  padding: 0;
 }
 
 /* || MENU */
@@ -191,6 +206,13 @@ button {
   font-size: 24px;
 }
 
+i.head-icon {
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  margin: 10px 0;
+}
+
 .fab {
   color: var(--color-dark-grey);
   margin: 0 10px;
@@ -219,12 +241,16 @@ button {
   width: 100%;
 }
 
-.red {
-  background-color: rgb(249, 123, 139);
+.yellow {
+  background-color: var(--color-yellow);
 }
 
-.purple {
-  background-color: rgb(108, 108, 229);
+.green {
+  background-color: var(--color-green);
+}
+
+.white-font {
+  color: var(--color-white);
 }
 
 /* || CONTACT */
@@ -236,8 +262,34 @@ button {
 }
 
 .contact {
-  padding: 0 10px 0px 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  padding: 0;
   margin: 20px;
+}
+
+.contact-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.contact-item {
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.contact-item > p {
+  font-weight: 300;
+  margin: 5px 0;
+}
+
+i.contact-icon {
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  margin: 10px 0;
 }
 
 /* || FOOTER */
@@ -271,6 +323,43 @@ button {
   margin: 0 10px;
 }
 
+/* || EXPERIENCE */
+
+.float-right {
+  float: right;
+}
+
+ul.timeline {
+  list-style-type: none;
+  position: relative;
+}
+ul.timeline:before {
+  content: ' ';
+  background: var(--color-white);
+  display: inline-block;
+  position: absolute;
+  left: 29px;
+  width: 2px;
+  height: 100%;
+  z-index: 400;
+}
+ul.timeline > li {
+  margin: 20px 0;
+  padding-left: 20px;
+}
+ul.timeline > li:before {
+  content: ' ';
+  background: white;
+  display: inline-block;
+  position: absolute;
+  border-radius: 50%;
+  border: 3px solid var(--color-grey);
+  left: 20px;
+  width: 20px;
+  height: 20px;
+  z-index: 400;
+}
+
 /* || MEDIA BREAKPOINT 576PX */
 
 @media (min-width: 576px) {
@@ -289,6 +378,10 @@ button {
 
   .card-container {
     flex-direction: row;
+  }
+
+  .contact {
+    justify-content: space-around;
   }
 }
 
@@ -309,6 +402,11 @@ button {
 
   .section-title {
     margin: 30px;
+  }
+
+  .contact {
+    width: 100%;
+  }
 }
 
 /* || MEDIA BREAKPOINT 992PX */
@@ -316,7 +414,7 @@ button {
 @media (min-width: 992px) {
   .columns {
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
   }
   .hobbies,
   .about-me {
@@ -325,5 +423,15 @@ button {
 
   .hobby-item {
     width: 45%;
+  }
+
+  .contact {
+    width: 65%;
+  }
+
+  i.contact-icon {
+    font-size: 100px;
+    justify-content: space-between;
+    align-items: center;
   }
 }
