@@ -35,9 +35,8 @@ body {
   font-family: 'Rubik', sans-serif;
   font-size: 112.5%;
   line-height: 1.5;
-  margin: 0;
   max-width: var(--breakpoint-lg);
-  margin: auto;
+  margin: 0 auto;
 }
 
 figcaption,
