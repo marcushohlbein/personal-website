@@ -3,8 +3,12 @@
 @import '_typography.css';
 @import '_utilities.css';
 @import 'components/header.css';
+@import 'components/hero.css';
+@import 'components/about_me.css';
+@import 'components/skills.css';
 
 /* || GENERAL */
+
 .content-container {
   display: flex;
   flex-direction: column;
@@ -41,91 +45,7 @@
   color: var(--color-white);
 }
 
-/* || HOME */
-
-.home {
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-}
-
-.portrait {
-  border-radius: 50%;
-}
-
-.title {
-  color: var(--color-dark-grey);
-  font-weight: bolder;
-  font-size: 40px;
-  letter-spacing: -2px;
-  margin: 10px;
-}
-
-.sub-title {
-  color: var(--color-grey);
-  font-weight: 300;
-  margin: 0 0 20px 0;
-}
-
-.social-container {
-  font-size: 24px;
-}
-
-i.head-icon {
-  display: flex;
-  justify-content: center;
-  font-size: 45px;
-  margin: 10px 0;
-}
-
-.fab {
-  color: var(--color-dark-grey);
-  margin: 0 10px;
-}
-
-.social-container > a {
-  text-decoration: none;
-}
-
-.social-icon {
-  margin: 10px;
-}
-
 /* || ABOUT ME */
-
-.about-me {
-  line-break: auto;
-}
-
-.hobby-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  list-style-type: none;
-  line-break: ;
-  padding: 0;
-}
-
-.hobby-item {
-  font-size: 50px;
-  margin: 0 10px;
-}
-
-/* || SKILLS */
-
-.skill-list {
-  padding: 0;
-}
-
-.skill-item {
-  display: flex;
-  flex-direction: column;
-  text-emphasis: none;
-}
-.progress {
-  width: 100%;
-}
 
 /* || CONTACT */
 

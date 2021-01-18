@@ -1,0 +1,17 @@
+.about-me {
+  line-break: auto;
+}
+
+.hobby-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  line-break: ;
+  padding: 0;
+}
+
+.hobby-item {
+  font-size: 50px;
+  margin: 0 10px;
+}
