@@ -1,0 +1,50 @@
+@import '_constants.css';
+
+.home {
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.portrait {
+  border-radius: 50%;
+}
+
+.title {
+  color: var(--color-dark-grey);
+  font-weight: bolder;
+  font-size: 40px;
+  letter-spacing: -2px;
+  margin: 10px;
+}
+
+.sub-title {
+  color: var(--color-grey);
+  font-weight: 300;
+  margin: 0 0 20px 0;
+}
+
+.social-container {
+  font-size: 24px;
+}
+
+i.head-icon {
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  margin: 10px 0;
+}
+
+.fab {
+  color: var(--color-dark-grey);
+  margin: 0 10px;
+}
+
+.social-container > a {
+  text-decoration: none;
+}
+
+.social-icon {
+  margin: 10px;
+}

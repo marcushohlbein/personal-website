@@ -1,5 +1,5 @@
-@import '_constants.css';
 @import '_base.css';
+@import '_constants.css';
 @import '_typography.css';
 @import '_utilities.css';
 @import 'components/header.css';
@@ -40,8 +40,6 @@
   text-decoration: none;
   color: var(--color-white);
 }
-
-/* || SITE-TITLE */
 
 /* || HOME */
 
