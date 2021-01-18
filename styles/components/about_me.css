@@ -1,5 +1,6 @@
 .about-me {
   line-break: auto;
+  margin: 0 10px 0 0;
 }
 
 .hobby-list {
@@ -14,4 +15,15 @@
 .hobby-item {
   font-size: 50px;
   margin: 0 10px;
+}
+
+@media (min-width: 992px) {
+  .hobbies,
+  .about-me {
+    width: 45%;
+  }
+
+  .hobby-item {
+    width: 45%;
+  }
 }

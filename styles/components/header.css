@@ -36,3 +36,20 @@
 .menu-item:hover {
   border-bottom: 3px solid var(--color-grey);
 }
+
+@media (min-width: 576px) {
+  .header {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .menu-list {
+    padding: 0 15px;
+  }
+}
+
+@media (min-width: 768px) {
+  .menu-list {
+    padding: 0 25px;
+  }
+}
