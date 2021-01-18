@@ -27,3 +27,16 @@
 .justify-center {
   justify-content: center;
 }
+
+@media (min-width: 768px) {
+  .row-reserve {
+    flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 992px) {
+  .columns {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+}

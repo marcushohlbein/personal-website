@@ -31,6 +31,34 @@
 i.contact-icon {
   display: flex;
   justify-content: center;
-  font-size: 45px;
+  font-size: 75px;
   margin: 10px 0;
+}
+
+@media (min-width: 576px) {
+  .contact {
+    justify-content: space-around;
+  }
+
+  i.contact-icon {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact {
+    width: 65%;
+  }
+
+  i.contact-icon {
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact {
+    width: 65%;
+  }
 }
