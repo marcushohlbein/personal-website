@@ -1,0 +1,21 @@
+{
+  "name": "personal-website",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "htmlhint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcushohlbein/personal-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcushohlbein/personal-website/issues"
+  },
+  "homepage": "https://github.com/marcushohlbein/personal-website#readme",
+  "devDependencies": {
+    "htmlhint": "^0.14.2"
+  }
+}
