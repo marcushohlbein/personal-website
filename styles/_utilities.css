@@ -1,0 +1,29 @@
+.red {
+  color: var(--color-red);
+  margin: 0;
+  margin: 0;
+}
+
+.yellow {
+  background-color: var(--color-yellow);
+}
+
+.green {
+  background-color: var(--color-green);
+}
+
+.white-font {
+  color: var(--color-white);
+}
+.columns {
+  display: flex;
+  flex-direction: column;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}

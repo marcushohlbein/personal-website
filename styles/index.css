@@ -1,9 +1,10 @@
 @import '_constants.css';
 @import '_base.css';
 @import '_typography.css';
+@import '_utilities.css';
+@import 'components/header.css';
 
 /* || GENERAL */
-
 .content-container {
   display: flex;
   flex-direction: column;
@@ -26,19 +27,6 @@
   width: 100%;
 }
 
-.columns {
-  display: flex;
-  flex-direction: column;
-}
-
-.align-center {
-  align-items: center;
-}
-
-.justify-center {
-  justify-content: center;
-}
-
 .scrolltop {
   display: flex;
   justify-content: center;
@@ -53,62 +41,7 @@
   color: var(--color-white);
 }
 
-/* || FORMS, INPUT */
-
-input,
-button {
-  font-size: 1em;
-}
-
-/* || HEADER */
-
-.header {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
 /* || SITE-TITLE */
-
-.site-title {
-  display: block;
-  margin: 0 20px;
-  letter-spacing: -2px;
-}
-
-.red {
-  color: var(--color-red);
-  margin: 0;
-  margin: 0;
-}
-
-/* || MENU */
-
-.menu-list-container {
-  margin: auto;
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding: 0;
-}
-
-.menu-list {
-  padding: 0 10px;
-}
-
-.menu-item {
-  color: var(--color-grey);
-  font-weight: 400;
-  text-decoration: none;
-  padding: 0;
-}
-
-.menu-item:hover {
-  border-bottom: 3px solid var(--color-grey);
-}
 
 /* || HOME */
 
@@ -194,18 +127,6 @@ i.head-icon {
 }
 .progress {
   width: 100%;
-}
-
-.yellow {
-  background-color: var(--color-yellow);
-}
-
-.green {
-  background-color: var(--color-green);
-}
-
-.white-font {
-  color: var(--color-white);
 }
 
 /* || CONTACT */
