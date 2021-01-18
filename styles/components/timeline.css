@@ -1,3 +1,5 @@
+@import '_constants.css';
+
 ul.timeline {
   list-style-type: none;
   position: relative;
