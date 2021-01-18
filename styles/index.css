@@ -9,9 +9,6 @@
   --color-red: #e74c3c;
   --color-green: #81c784;
   --color-yellow: #f9d74c;
-  --color-brown: #964b00;
-  --color-light-blue: #3498db;
-  --color-blue: #2980b9;
 
   --breakpoint-xs: 0;
   --breakpoint-sm: 576px;
@@ -84,12 +81,37 @@ section {
   width: 100%;
 }
 
+.columns {
+  display: flex;
+  flex-direction: column;
+}
+
 .align-center {
   align-items: center;
 }
 
 .justify-center {
   justify-content: center;
+}
+
+.scrolltop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  background-color: var(--color-grey);
+  bottom: 15px;
+  right: 15px;
+  border-radius: 50%;
+  padding: 6px 12px;
+}
+
+.scrolltop > a {
+  text-decoration: none;
+  position: relative;
+  color: var(--color-white);
+  margin: 0;
+  padding: 0;
 }
 
 /* || TYPOGRAPHY */
@@ -141,12 +163,6 @@ button {
   color: var(--color-red);
   margin: 0;
   margin: 0;
-}
-
-.brown {
-  color: var(--color-brown);
-  margin: 0;
-  padding: 0;
 }
 
 /* || MENU */
@@ -226,6 +242,26 @@ i.head-icon {
   margin: 10px;
 }
 
+/* || ABOUT ME */
+
+.about-me {
+  line-break: auto;
+}
+
+.hobby-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  list-style-type: none;
+  line-break: ;
+  padding: 0;
+}
+
+.hobby-item {
+  font-size: 50px;
+  margin: 0 10px;
+}
+
 /* || SKILLS */
 
 .skill-list {
@@ -302,25 +338,6 @@ i.contact-icon {
 .footer-container > span {
   color: var(--color-red);
   margin: 0 2px;
-}
-
-.columns {
-  display: flex;
-  flex-direction: column;
-}
-
-.hobby-list {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  list-style-type: none;
-  line-break: ;
-  padding: 0;
-}
-
-.hobby-item {
-  font-size: 50px;
-  margin: 0 10px;
 }
 
 /* || EXPERIENCE */
@@ -433,5 +450,11 @@ ul.timeline > li:before {
     font-size: 100px;
     justify-content: space-between;
     align-items: center;
+  }
+}
+
+@media screen and (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
   }
 }
