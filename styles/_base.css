@@ -1,0 +1,38 @@
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--color-cream);
+  color: var(--color-grey);
+  font-family: 'Rubik', sans-serif;
+  font-size: 112.5%;
+  line-height: 1.5;
+  max-width: var(--breakpoint-lg);
+  margin: 0 auto;
+}
+
+figcaption,
+figure,
+footer,
+header,
+main,
+nav,
+section {
+  display: block;
+}
+
+.content {
+  padding: 0;
+}
+
+section {
+  padding: 20px;
+  display: flex;
+}
