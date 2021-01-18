@@ -1,3 +1,5 @@
+@import '_constants.css';
+
 .red {
   color: var(--color-red);
   margin: 0;
