@@ -1,0 +1,36 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+.site-title {
+  display: block;
+  margin: 0 20px;
+  letter-spacing: -2px;
+}
+
+.menu-list-container {
+  margin: auto;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.menu-list {
+  padding: 0 10px;
+}
+
+.menu-item {
+  color: var(--color-grey);
+  font-weight: 400;
+  text-decoration: none;
+  padding: 0;
+}
+
+.menu-item:hover {
+  border-bottom: 3px solid var(--color-grey);
+}
