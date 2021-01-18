@@ -1,0 +1,17 @@
+h1 {
+  color: var(--color-dark-grey);
+  margin: 0;
+}
+
+h2,
+h3 {
+  color: var(--color-dark-grey);
+  font-weight: 700;
+  line-break: unset;
+}
+
+.section-title {
+  font-size: 36px;
+  margin: 0 30px;
+  white-space: nowrap;
+}
