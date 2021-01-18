@@ -1,0 +1,9 @@
+.footer-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.footer-container > span {
+  color: var(--color-red);
+  margin: 0 2px;
+}
