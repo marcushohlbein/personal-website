@@ -1,21 +1,4 @@
-/* General */
-
-:root {
-  --color-white: #ecf0f1;
-  --color-cream: ##f9f9ff;
-  --color-black: #2c3e50;
-  --color-grey: #5e5c7f;
-  --color-dark-grey: #353353;
-  --color-red: #e74c3c;
-  --color-green: #81c784;
-  --color-yellow: #f9d74c;
-
-  --breakpoint-xs: 0;
-  --breakpoint-sm: 576px;
-  --breakpoint-md: 768px;
-  --breakpoint-lg: 992px;
-  --breakpoint-xl: 1200px;
-}
+@import (_constants.css);
 
 /* || GENERAL */
 
