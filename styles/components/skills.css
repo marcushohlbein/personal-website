@@ -1,0 +1,12 @@
+.skill-list {
+  padding: 0;
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  text-emphasis: none;
+}
+.progress {
+  width: 100%;
+}
