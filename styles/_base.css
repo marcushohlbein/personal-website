@@ -72,7 +72,7 @@ section {
   background-color: var(--color-grey);
   bottom: 15px;
   right: 15px;
-  padding: 12px;
+  padding: 11px 12px;
   border-radius: 50%;
   text-decoration: none;
   color: var(--color-white);
