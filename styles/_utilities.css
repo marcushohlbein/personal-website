@@ -20,6 +20,11 @@
   flex-direction: column;
 }
 
+.columns-md {
+  display: flex;
+  flex-direction: column;
+}
+
 .align-center {
   align-items: center;
 }
@@ -28,9 +33,21 @@
   justify-content: center;
 }
 
+i.head-icon {
+  display: flex;
+  justify-content: center;
+  font-size: 45px;
+  margin: 10px 0;
+}
+
 @media (min-width: 768px) {
   .row-reserve {
     flex-direction: row-reverse;
+  }
+
+  .columns-md {
+    flex-direction: row;
+    justify-content: space-evenly;
   }
 }
 

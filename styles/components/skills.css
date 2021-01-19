@@ -1,12 +1,12 @@
-.skill-list {
+.skill__list {
   padding: 0;
 }
 
-.skill-item {
+.skill__item {
   display: flex;
   flex-direction: column;
   text-emphasis: none;
 }
-.progress {
+.skill__progress {
   width: 100%;
 }

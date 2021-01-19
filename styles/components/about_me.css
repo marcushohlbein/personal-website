@@ -1,9 +1,9 @@
-.about-me {
+.about-me__summary {
   line-break: auto;
   margin: 0 10px 0 0;
 }
 
-.hobby-list {
+.about-me__hobby-list {
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -12,18 +12,18 @@
   padding: 0;
 }
 
-.hobby-item {
+.about-me__hobby-item {
   font-size: 50px;
   margin: 0 10px;
 }
 
 @media (min-width: 992px) {
-  .hobbies,
+  .about-me__hobbies,
   .about-me {
     width: 45%;
   }
 
-  .hobby-item {
+  .about-me__hobby-item {
     width: 45%;
   }
 }
