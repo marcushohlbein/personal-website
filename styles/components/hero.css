@@ -1,17 +1,15 @@
-@import '_constants.css';
-
-.home {
+.hero {
   justify-content: center;
   align-items: center;
   flex-direction: column;
   height: 100vh;
 }
 
-.portrait {
+.hero__portrait-picture {
   border-radius: 50%;
 }
 
-.title {
+.hero__title {
   color: var(--color-dark-grey);
   font-weight: bolder;
   font-size: 40px;
@@ -19,32 +17,25 @@
   margin: 10px;
 }
 
-.sub-title {
+.hero__sub-title {
   color: var(--color-grey);
   font-weight: 300;
   margin: 0 0 20px 0;
 }
 
-.social-container {
+.hero__social-icons {
   font-size: 24px;
 }
 
-i.head-icon {
-  display: flex;
-  justify-content: center;
-  font-size: 45px;
-  margin: 10px 0;
-}
-
-.fab {
-  color: var(--color-dark-grey);
-  margin: 0 10px;
-}
-
-.social-container > a {
+.hero__social-icons > a {
   text-decoration: none;
 }
 
 .social-icon {
   margin: 10px;
+}
+
+.fab {
+  color: var(--color-dark-grey);
+  margin: 0 10px;
 }

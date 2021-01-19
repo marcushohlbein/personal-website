@@ -15,20 +15,20 @@
   <body>
     <!--header-->
     <header id="header" class="header">
-      <h1 class="site-title">Marcus<span class="red">.</span></h1>
-      <nav class="menu-container">
-        <ul class="menu-list-container">
-          <li class="menu-list">
-            <a href="#about-me" class="menu-item">About</a>
+      <h1 class="header__title">Marcus<span class="red">.</span></h1>
+      <nav>
+        <ul class="header__menu-list-container">
+          <li class="header__menu-list">
+            <a href="#about-me" class="header__menu-item">About</a>
           </li>
-          <li class="menu-list">
-            <a href="#skills" class="menu-item">Skills</a>
+          <li class="header__menu-list">
+            <a href="#skills" class="header__menu-item">Skills</a>
           </li>
-          <li class="menu-list">
-            <a href="#experience" class="menu-item">Experience</a>
+          <li class="header__menu-list">
+            <a href="#timeline" class="header__menu-item">Experience</a>
           </li>
-          <li class="menu-list">
-            <a href="#contact" class="menu-item">Contact</a>
+          <li class="header__menu-list">
+            <a href="#contact" class="header__menu-item">Contact</a>
           </li>
         </ul>
       </nav>
@@ -36,20 +36,20 @@
     <!--main layout-->
     <main class="content">
       <!--section main-->
-      <section class="home">
-        <figure class="profile-picture">
+      <section class="hero">
+        <figure>
           <img
-            class="portrait"
+            class="hero__portrait-picture"
             src="images/marcus_hohlbein.jpg"
             alt=""
-            height="100"
-            width="100"
+            height="150"
+            width="150"
           />
         </figure>
-        <h2 class="title">Marcus Hohlbein</h2>
-        <p class="sub-title">I'm the new kid on Github</p>
+        <h2 class="hero__title">Marcus Hohlbein</h2>
+        <p class="hero__sub-title">I'm the new kid on Github</p>
         <!--Social Icons-->
-        <div class="social-container">
+        <div class="hero__social-icons">
           <a href="https://github.com/marcushohlbein">
             <i class="fab fa-github"></i>
           </a>
@@ -79,18 +79,18 @@
       <section id="about-me" class="content-container">
         <h2 class="section-title">About Me</h2>
         <div class="card columns">
-          <p class="about-me">
+          <p class="about-me__summary">
             Hi, I'm Marcus from Hamburg. After many years in the financial
             industry, I would like to implement exciting projects as a web
             developer in the future.
           </p>
-          <div class="hobbies">
+          <div class="about-me__hobbies">
             <h3>Hobbies</h3>
-            <ul class="hobby-list">
-              <li class="hobby-item">🏝</li>
-              <li class="hobby-item">🏂</li>
-              <li class="hobby-item">🏃‍♂️</li>
-              <li class="hobby-item">📸</li>
+            <ul class="about-me__hobby-list">
+              <li class="about-me__hobby-item">🏝</li>
+              <li class="about-me__hobby-item">🏂</li>
+              <li class="about-me__hobby-item">🏃‍♂️</li>
+              <li class="about-me__hobby-item">📸</li>
             </ul>
           </div>
         </div>
@@ -101,42 +101,42 @@
         <div class="card-container">
           <div class="card yellow">
             <i class="fas fa-desktop head-icon"></i>
-            <ul class="skill-list">
-              <li class="skill-item">HTML</li>
-              <progress value="50" max="100" class="progress"></progress>
-              <li class="skill-item">CSS</li>
-              <progress value="50" max="100" class="progress"></progress>
-              <li class="skill-item">JavaScript</li>
-              <progress value="40" max="100" class="progress"></progress>
-              <li class="skill-item">React (Native)</li>
-              <progress value="35" max="100" class="progress"></progress>
+            <ul class="skill__list">
+              <li class="skill__item">HTML</li>
+              <progress value="50" max="100" class="skill__progress"></progress>
+              <li class="skill__item">CSS</li>
+              <progress value="50" max="100" class="skill__progress"></progress>
+              <li class="skill__item">JavaScript</li>
+              <progress value="40" max="100" class="skill__progress"></progress>
+              <li class="skill__item">React (Native)</li>
+              <progress value="35" max="100" class="skill__progress"></progress>
             </ul>
           </div>
           <div class="card green white-font">
             <i class="fas fa-cogs head-icon"></i>
-            <ul class="skill-list">
-              <li class="skill-item">Node.js</li>
-              <progress value="35" max="100" class="progress"></progress>
-              <li class="skill-item">Express</li>
-              <progress value="30" max="100" class="progress"></progress>
-              <li class="skill-item">MongoDB</li>
-              <progress value="20" max="100" class="progress"></progress>
-              <li class="skill-item">Firebase</li>
-              <progress value="25" max="100" class="progress"></progress>
+            <ul class="skill__list">
+              <li class="skill__item">Node.js</li>
+              <progress value="35" max="100" class="skill__progress"></progress>
+              <li class="skill__item">Express</li>
+              <progress value="30" max="100" class="skill__progress"></progress>
+              <li class="skill__item">MongoDB</li>
+              <progress value="20" max="100" class="skill__progress"></progress>
+              <li class="skill__item">Firebase</li>
+              <progress value="25" max="100" class="skill__progress"></progress>
             </ul>
           </div>
         </div>
       </section>
       <!--section experience-->
-      <section id="experience" class="content-container">
+      <section id="timeline" class="content-container">
         <h2 class="section-title">Experience</h2>
         <div class="card">
           <ul class="timeline">
-            <li class="event">
+            <li class="timeline__event">
               <h3>neueFische GmbH // 2021</h3>
               <p>Web Development Trainee</p>
             </li>
-            <li class="event">
+            <li class="timeline__event">
               <h3>Jungheinrich AG // 2017-2021</h3>
               <p>
                 Supervision of JH foreign companies in closing operations for
@@ -144,7 +144,7 @@
                 reporting
               </p>
             </li>
-            <li class="event">
+            <li class="timeline__event">
               <h3>Deloitte // 2016-2017</h3>
               <p>
                 Support of projects in the area of banking organization (GwG,
@@ -153,7 +153,7 @@
                 providers
               </p>
             </li>
-            <li class="event">
+            <li class="timeline__event">
               <h3>netbank AG // 2012-2016</h3>
               <p>
                 Development of market-driven organizational structures, business
@@ -161,7 +161,7 @@
                 management, business process planning and implementation
               </p>
             </li>
-            <li class="event">
+            <li class="timeline__event">
               <h3>Raiffeisenbank Werratal-Landeck // 2010-2012</h3>
               <p>
                 Advice for private and business customers for financial
@@ -169,7 +169,7 @@
                 customer relationships management
               </p>
             </li>
-            <li class="event">
+            <li class="timeline__event">
               <h3>Sparkasse Nordhausen // 2006-2010</h3>
               <p>
                 Advice for private and business customers for financial
@@ -183,25 +183,25 @@
       <!--section contact-->
       <section id="contact" class="content-container row-reserve">
         <h2 class="section-title">Contact</h2>
-        <div class="card columns">
-          <i class="far fa-address-card contact-icon"></i>
+        <div class="card columns-md">
+          <i class="far fa-address-card contact--icon"></i>
           <contact class="contact">
-            <ul class="contact-list">
-              <li class="contact-item">
+            <ul class="contact__list">
+              <li class="contact__item">
                 Name
                 <p>Marcus Hohlbein</p>
               </li>
-              <li class="contact-item">
+              <li class="contact__item">
                 Location<br />
                 <p>Hamburg</p>
               </li>
             </ul>
-            <ul class="contact-list">
-              <li class="contact-item">
+            <ul class="contact__list">
+              <li class="contact__item">
                 Telephone<br />
                 <p>0151/1234567890</p>
               </li>
-              <li class="contact-item">
+              <li class="contact__item">
                 Email<br />
                 <p>marcus@hohlbe.in</p>
               </li>

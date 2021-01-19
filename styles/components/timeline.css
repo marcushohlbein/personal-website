@@ -30,14 +30,3 @@ ul.timeline > li:before {
   height: 20px;
   z-index: 400;
 }
-
-@media (min-width: 992px) {
-  .hobbies,
-  .about-me {
-    width: 45%;
-  }
-
-  .hobby-item {
-    width: 45%;
-  }
-}

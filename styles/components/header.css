@@ -7,13 +7,13 @@
   justify-content: center;
   width: 100%;
 }
-.site-title {
+.header__title {
   display: block;
   margin: 0 20px;
   letter-spacing: -2px;
 }
 
-.menu-list-container {
+.header__menu-list-container {
   margin: auto;
   list-style: none;
   display: flex;
@@ -22,18 +22,18 @@
   padding: 0;
 }
 
-.menu-list {
+.header__menu-list {
   padding: 0 10px;
 }
 
-.menu-item {
+.header__menu-item {
   color: var(--color-grey);
   font-weight: 400;
   text-decoration: none;
   padding: 0;
 }
 
-.menu-item:hover {
+.header__menu-item:hover {
   border-bottom: 3px solid var(--color-grey);
 }
 
@@ -43,13 +43,13 @@
     justify-content: space-between;
   }
 
-  .menu-list {
+  .header__menu-list {
     padding: 0 15px;
   }
 }
 
 @media (min-width: 768px) {
-  .menu-list {
+  .header__menu-list {
     padding: 0 25px;
   }
 }
